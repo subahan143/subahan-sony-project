@@ -55,32 +55,34 @@ const Home = () => {
   <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[40%] phone:h-[100px]' src="	https://www.urbanvault.in/images/Bright-Logo.jpg" alt="" />
 </div>
 </div>
-<div className='w-full h-[80vh] phone:w-full phone:h-[55vh] phone:bg-slate-700 phone:items-center phone:justify-center phone:flex'>
+<div className="w-full h-screen flex phone:w-full phone:h-[60vh] phone:flex phone:items-center phone:justify-center ">
+<div className='w-full h-[80vh]  phone:w-[80%] phone:h-[55vh] phone:items-center phone:justify-center phone:flex  '>
 
-            <Carousel showThumbs={false}>
-                <div>
-                    <img className='w-full h-[80vh] phone:w-[70%] phone:h-[50vh]' src="https://images.unsplash.com/photo-1697487957555-5f8df6a965f6?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <img className='w-full h-[80vh] object-cover phone:w-[70%] phone:h-[50vh]' src="https://images.unsplash.com/photo-1696964257725-2b375f681cd9?auto=format&fit=crop&q=80&w=1472&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <img className='w-full h-[80vh] phone:w-[70%] phone:h-[50vh]' src="https://images.unsplash.com/photo-1697402637560-1afd5d2a0b7e?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                    <p className="legend">Legend 3</p>
-                </div>
-                <div>
-                    <img className='w-full h-[80vh] phone:w-[70%] phone:h-[50vh]'src="https://images.unsplash.com/photo-1686894670451-1944cfd0f67f?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                    <p className="legend">Legend 3</p>
-                </div>
-                <div>
-                    <img className='w-full h-[80vh] object-center phone:w-[70%] phone:h-[50vh]' src="https://images.unsplash.com/photo-1688534484011-d3917b607626?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                    <p className="legend">Legend 4</p>
-                </div>
-                
-            </Carousel>
+<Carousel showThumbs={false}>
+    <div>
+        <img className='w-full rounded-3xl h-[80vh] phone:w-[50%] phone:h-[50vh]' src="https://images.unsplash.com/photo-1697487957555-5f8df6a965f6?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <p className="legend">Legend 1</p>
+    </div>
+    <div>
+        <img className='w-full rounded-3xl h-[80vh] object-cover phone:w-[70%] phone:h-[50vh]' src="https://images.unsplash.com/photo-1696964257725-2b375f681cd9?auto=format&fit=crop&q=80&w=1472&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <p className="legend">Legend 2</p>
+    </div>
+    <div>
+        <img className='w-full rounded-3xl h-[80vh] phone:w-[70%] phone:h-[50vh]' src="https://images.unsplash.com/photo-1697402637560-1afd5d2a0b7e?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <p className="legend">Legend 3</p>
+    </div>
+    <div>
+        <img className='w-full rounded-3xl h-[80vh] phone:w-[70%] phone:h-[50vh]'src="https://images.unsplash.com/photo-1686894670451-1944cfd0f67f?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <p className="legend">Legend 3</p>
+    </div>
+    <div>
+        <img className='w-full rounded-3xl h-[80vh] object-center phone:w-[70%] phone:h-[50vh]' src="https://images.unsplash.com/photo-1688534484011-d3917b607626?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <p className="legend">Legend 4</p>
+    </div>
+    
+</Carousel>
 
+</div>
 </div>
 <div className='w-fuul h-[60vh] phone:w-full phone:h-[90vh] '>
 
@@ -194,7 +196,7 @@ const Home = () => {
 
 
 </div>
-<div className='w-full h-[30vh] phone:w-full phone:h-[30vh] phone:flex phone:items-center phone:justify-center phone:object-cover'>
+<div className='w-full h-[30vh] phone:w-full phone:h-[25vh] phone:flex phone:items-center phone:justify-center phone:object-cover'>
   <img className='w-full h-[30vh] phone:w-[350px] phone:h-[130px]' src="https://www.urbanvault.in/images/FooterBottomImage-min-1.png" alt="" />
 </div>
 
