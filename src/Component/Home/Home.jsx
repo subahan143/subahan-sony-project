@@ -26,33 +26,33 @@ const Home = () => {
   <button className='phone:w-[140px] w-[150px] h-[40px] border-2 rounded-xl'>Find the right plan</button></span>
 </div>
 <div className='w-full h-[85vh] flex items-center justify-center phone:w-full phone:h-[31vh]'>
-  <img className='w-[80%] h-[80vh] phone:w-full' src="https://workspace.google.com/static/img/business_hero.svg?cache=dd5d454" alt="" />
+  <img className='w-[80%] h-[80vh] phone:w-full phone:h-[30vh]' src="https://workspace.google.com/static/img/business_hero.svg?cache=dd5d454" alt="" />
 </div>
-<div className='w-full h-[50vh] text-5xl text-center flex items-stretch justify-center phone:w-full phone:h-[25vh]'>
+<div className='w-full h-[50vh] text-5xl text-center flex items-stretch justify-center phone:w-full phone:h-[25vh] '>
 <p className='w-[80%] font-bold flex items-center justify-center phone:text-xl'>Flexible, helpful business collaboration solutions for all the ways that work is changing.</p>
 </div>
-<div className='w-full h-[65vh] flex items-center justify-center phone:flex-col phone:w-full phone:h-[100vh]'>
+<div className='w-full h-[65vh] flex items-center justify-center phone:flex-col phone:w-full phone:h-[100vh] '>
   <div className='w-[50%] h-[60vh] phone:w-full phone:h-[50vh] phone:items-center phone:justify-center phone:flex '>
     <img className='w-full h-[60vh] phone:w-[80%] phone:h-[40vh]' src="https://lh3.googleusercontent.com/i-SBVCH6hzemto0hbgcZliTGaJHgmzAgVByoXd1xUqcbJAXzgltkgYE8StvqYs_oAdx82dZY2GlAJAi0SraAjvsjg3iSbmwPxbcLNc4=w1400-rw" alt="" />
   </div>
-  <div className='w-[50%] h-[60vh] flex items-start justify-center flex-col pl-11 gap-3 phone:w-full'>
+  <div className='w-[50%] h-[60vh] flex items-start justify-center flex-col pl-11 gap-3 phone:w-full '>
     <h1 className='text-4xl phone:text-2xl '>Sites</h1>
     <p className='text-2xl phone:text-xl'>Effortlessly create impactful team sites</p>
     <p className='text-sm w-[70%]'>Collaboratively create engaging, high-quality sites for your team, project or event. The sites look great on all screens, from desktop to smartphone. All without learning design or programming.</p>
     <button className='phone:w-[100px] w-[130px] h-[35px] border-2 text-white bg-[#1a73e8] rounded-xl phone:text-xs phone:font-bold'>Start Free Trial</button>
   </div>
 </div>
-<div className='w-full h-[45vh]  flex gap-3 flex-col phone:w-full phone:h-[95vh]'>
+<div className='w-full h-[45vh]  flex gap-3 flex-col phone:w-full phone:h-[80vh] '>
   <div className='w-full h-[20vh] flex items-center justify-center flex-col text-3xl phone:text-xl phone:h-[15vh] '>
   <h1>And a bunch of happy</h1>
   <h1>customers</h1>
   </div>
-  <div className='flex items-center justify-center gap-5 phone:flex-col '>
-  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[50%] phone:h-[80px] ' src="https://www.urbanvault.in/images/AccorHotelsLogo.jpg" alt="" /> 
-  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[50%] phone:h-[80px]' src="https://www.urbanvault.in/images/KhataBook-Logo.jpg" alt="" /> 
-  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[50%] phone:h-[80px]' src="	https://www.urbanvault.in/images/Zetwork-Logo.jpg" alt="" /> 
-  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[50%] phone:h-[80px]' src="https://www.urbanvault.in/images/CaratLane-Logo.jpg" alt="" /> 
-  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[50%] phone:h-[80px]' src="	https://www.urbanvault.in/images/Bright-Logo.jpg" alt="" />
+  <div className='flex items-center justify-center gap-5 flex-wrap phone:w-full phone:h-[60vh]  phone:flex  phone:flex-wrap  '>
+  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[40%] phone:h-[100px] ' src="https://www.urbanvault.in/images/AccorHotelsLogo.jpg" alt="" /> 
+  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[40%] phone:h-[100px]' src="https://www.urbanvault.in/images/KhataBook-Logo.jpg" alt="" /> 
+  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[40%] phone:h-[100px]' src="	https://www.urbanvault.in/images/Zetwork-Logo.jpg" alt="" /> 
+  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[40%] phone:h-[100px]' src="https://www.urbanvault.in/images/CaratLane-Logo.jpg" alt="" /> 
+  <img className='w-[200px] h-[100px] border-2 rounded-xl phone:w-[40%] phone:h-[100px]' src="	https://www.urbanvault.in/images/Bright-Logo.jpg" alt="" />
 </div>
 </div>
 <div className='w-full h-[80vh] phone:w-full phone:h-[55vh] phone:bg-slate-700 phone:items-center phone:justify-center phone:flex'>
@@ -76,7 +76,7 @@ const Home = () => {
                 </div>
                 <div>
                     <img className='w-full h-[80vh] object-center phone:w-[70%] phone:h-[50vh]' src="https://images.unsplash.com/photo-1688534484011-d3917b607626?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend">Legend 4</p>
                 </div>
                 
             </Carousel>
@@ -195,7 +195,7 @@ const Home = () => {
 
 </div>
 <div className='w-full h-[30vh] phone:w-full phone:h-[30vh] phone:flex phone:items-center phone:justify-center phone:object-cover'>
-  <img className='w-full h-[30vh] object-center phone:object-fill' src="https://www.urbanvault.in/images/FooterBottomImage-min-1.png" alt="" />
+  <img className='w-full h-[30vh] phone:w-[350px] phone:h-[130px]' src="https://www.urbanvault.in/images/FooterBottomImage-min-1.png" alt="" />
 </div>
 
 
