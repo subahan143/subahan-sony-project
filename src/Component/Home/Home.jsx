@@ -196,8 +196,8 @@ const Home = () => {
 
 
 </div>
-<div className='w-full h-[30vh] phone:w-full phone:h-[25vh] phone:flex phone:items-center phone:justify-center phone:object-cover'>
-  <img className='w-full h-[30vh] phone:w-[350px] phone:h-[130px]' src="https://www.urbanvault.in/images/FooterBottomImage-min-1.png" alt="" />
+<div className='w-full h-[30vh] phone:w-full phone:h-[150px] phone:flex phone:items-center phone:justify-center phone:object-cover'>
+  <img className='w-full h-[30vh] phone:w-[95%] phone:h-[130px]' src="https://www.urbanvault.in/images/FooterBottomImage-min-1.png" alt="" />
 </div>
 
 
